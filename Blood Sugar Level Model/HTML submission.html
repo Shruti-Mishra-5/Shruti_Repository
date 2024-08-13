@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title> DIABETES PREDICTION APPLICATION </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <style>
+            body {
+                text-align: center;
+                background-image: url("C:/Users/shrut/Desktop/2nd Sem/DA Python/Python Final Submission/6881.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                color: white; /* Set text color to white for better visibility */
+            }
+            h1 {
+                font-family: "Algerian", serif;
+            }
+            #submitButton {
+                margin-top: 10px;
+            }
+            #resultThingy {
+                display: none; /* Initially hide the white box */
+                background-color: white;
+                color: red;
+                padding: 10px;
+                font-size: 1.2em;
+                margin-top: 20px;
+                display: inline-block;
+            }
+            .show {
+                display: inline-block; /* Show the white box */
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Diabetes Prediction Application </h1>
+
+        <p>
+            Enter AGE: <input type="text" id="age"> </input> <br/>
+            Enter SEX: <input type="text" id="sex"> </input> <br/>
+            Enter BMI: <input type="text" id="bmi"> </input> <br/>
+            Enter BP: <input type="text" id="bp"> </input> <br/>
+            Enter S1: <input type="text" id="s1"> </input> <br/>
+            Enter S2: <input type="text" id="s2"> </input> <br/>
+            Enter S3: <input type="text" id="s3"> </input> <br/>
+            Enter S4: <input type="text" id="s4"> </input> <br/>
+            Enter S5: <input type="text" id="s5"> </input> <br/>
+            Enter S6: <input type="text" id="s6"> </input> <br/>
+            <input type="submit" value="Submit Data" id="submitButton"></input> <br/>
+
+            <div id="resultThingy" class="hidden"> </div>
+        </p>
+
+        <script>
+            $(document).ready(function(){
+                console.log("Hello All! Website is Loaded!");
+
+                $("#submitButton").click(function(){
+                    age = $("#age").val();
+                    sex = $("#sex").val();
+                    bmi = $("#bmi").val();
+                    bp = $("#bp").val();
+                    s1 = $("#s1").val();
+                    s2 = $("#s2").val();
+                    s3 = $("#s3").val();
+                    s4 = $("#s4").val();
+                    s5 = $("#s5").val();
+                    s6 = $("#s6").val();
+
+                    console.log("VALUES ARE: ", age, sex, bmi, bp, s1, s2, s3, s4, s5, s6)
+
+                    var settings = {
+                        "url": "http://127.0.0.1:8000/diabetesPredict",
+                        "method": "POST",
+                        "timeout": 0,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "data": JSON.stringify({
+                            "age": age,
+                            "sex": sex,
+                            "bmi": bmi,
+                            "bp": bp,
+                            "s1": s1,
+                            "s2": s2,
+                            "s3": s3,
+                            "s4": s4,
+                            "s5": s5,
+                            "s6": s6
+                        }),
+                    };
+
+                    $.ajax(settings).done(function (response) {
+                        $("#resultThingy").html("Predicted value: " + response);
+                        $("#resultThingy").addClass("show"); // Show the white box
+                    });
+                });
+
+            });
+        </script>
+    </body>
+</html>
