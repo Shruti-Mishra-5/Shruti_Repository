@@ -95,7 +95,7 @@ st.markdown("""
 def load_data():
     try:
         # Assuming the dataset is tab-separated
-        df = pd.read_csv("C:/Users/shrut/Desktop/Car Data Handling & Predictive Model/Car Prices Dataset.txt", delimiter="        ")
+        df = pd.read_csv("C:\\Users\\shrut\\Desktop\\Github\\Projects\\Shruti_Repository\\Car Data Streamlit App\\Car Prices Dataset.txt", delimiter="        ")
         
         # Manually rename the columns if the header is missing or incorrect
         df.columns = ['CarModel', 'AgeOfCar', 'Price', 'OdoMeterReading', 'Fuel', 'DealingType', 'GearSystem', 'NoOfOwners']
@@ -177,7 +177,7 @@ def main():
         model = train_model(df)
 
         # Page 1: Introduction
-        page = st.sidebar.selectbox("Select a page:", ["Introduction", "Filter Data", "Price Predictor", "Dashboard"], key="page_selector")
+        page = st.sidebar.selectbox("Select a page:", ["Introduction","Choose Car By Features", "Price Predictor", "Dashboard"], key="page_selector")
 
         if page == "Introduction":
             st.write("""
@@ -206,8 +206,8 @@ def main():
 
         # Page 2: Filter Data
         # Page 2: Filter Data
-        elif page == "Filter Data":
-            st.title("Filter Data")
+        elif page == "Choose Car By Features":
+            st.title("Choose Car By Features")
             st.sidebar.header("Filter Options")
             
             car_models = st.sidebar.multiselect("Select Car Models", df['CarModel'].unique(), key="car_model_selector")

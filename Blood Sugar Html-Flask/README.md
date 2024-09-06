@@ -33,6 +33,16 @@ This repository contains a web-based Diabetes Prediction Application that utiliz
 
 6. **Open the HTML File**:
 
+## Screenshots
+
+### 1. User Interface
+
+![UI Output](./Output_images/UI%20Output%20Image.png)
+
+### 2. Prediction Result
+
+![Prediction Output](./Output_images/Prediction%20Image.png)
+
 ## Usage
 
 1. Navigate to the application's URL in your web browser.

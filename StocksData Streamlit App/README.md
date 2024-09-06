@@ -73,9 +73,12 @@ To run this application, you need to have Python and the required packages insta
 
 ## Recording
 
+## Recording
+
 To see a demonstration of how the application works, you can view the following recording:
 
-[Streamlit App Recording](StreamlitApp_Recording.mp4)
+[Streamlit App Recording](assets/StreamlitApp_Recording.mp4)
+
 
 ## Requirements
 

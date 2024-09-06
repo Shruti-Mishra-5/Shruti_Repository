@@ -10,6 +10,37 @@ This is an application that can be used to track moods of various individuals ov
 4. Run the app in command prompt using streamlit run app.py
 5. Make sure all the emojis are visible in your sysrem through updates
 
+# Screenshots of Output
+
+![Screenshot 2024-09-06 135806](./Images/Screenshot%202024-09-06%20135806.png)
+
+![Screenshot 2024-09-06 135827](./Images/Screenshot%202024-09-06%20135827.png)
+
+![Screenshot 2024-09-06 135846](./Images/Screenshot%202024-09-06%20135846.png)
+
+![Screenshot 2024-09-06 135920](./Images/Screenshot%202024-09-06%20135920.png)
+
+![Screenshot 2024-09-06 135946](./Images/Screenshot%202024-09-06%20135946.png)
+
+![Screenshot 2024-09-06 140019](./Images/Screenshot%202024-09-06%20140019.png)
+![Screenshot 2024-09-06 140039](./Images/Screenshot%202024-09-06%20140039.png)
+
+![Screenshot 2024-09-06 140100](./Images/Screenshot%202024-09-06%20140100.png)
+![Screenshot 2024-09-06 140119](./Images/Screenshot%202024-09-06%20140119.png)
+
+![Screenshot 2024-09-06 140410](./Images/Screenshot%202024-09-06%20140410.png)
+![Screenshot 2024-09-06 140424](./Images/Screenshot%202024-09-06%20140424.png)
+
+![Screenshot 2024-09-06 140442](./Images/Screenshot%202024-09-06%20140442.png)
+![Screenshot 2024-09-06 140457](./Images/Screenshot%202024-09-06%20140457.png)
+
+![Screenshot 2024-09-06 140612](./Images/Screenshot%202024-09-06%20140612.png)
+![Screenshot 2024-09-06 140626](./Images/Screenshot%202024-09-06%20140626.png)
+![Screenshot 2024-09-06 140646](./Images/Screenshot%202024-09-06%20140646.png)
+![Screenshot 2024-09-06 140659](./Images/Screenshot%202024-09-06%20140659.png)
+![Screenshot 2024-09-06 140727](./Images/Screenshot%202024-09-06%20140727.png)
+![Screenshot 2024-09-06 140745](./Images/Screenshot%202024-09-06%20140745.png)
+
 # ** Features of the Streamlit Application **
 ---
 1. Navigation bars to go to different parts of the app with dropdowns for each user selection convenience.

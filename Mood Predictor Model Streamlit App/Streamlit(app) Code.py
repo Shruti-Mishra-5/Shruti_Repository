@@ -12,23 +12,14 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 from mpl_toolkits.mplot3d import Axes3D
 import plotly.express as px
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
-import streamlit as st
-
-
-
-import streamlit as st
-
-
-
-
-
-excel_file_path = r"C:\\Users\\shrut\\Desktop\\DA Python\\CIA 3 Data.xlsx"
+excel_file_path = r"C:\\Users\\shrut\\Desktop\\Github\\Projects\\Shruti_Repository\\Mood Predictor Model Streamlit App\\Dataset.xlsx"
 
 df = pd.read_excel(excel_file_path, sheet_name=1, engine='openpyxl')
 
 
-excel_file_path = r"C:\\Users\\shrut\\Desktop\\DA Python\\CIA 3 Data.xlsx"
+excel_file_path =r"C:\\Users\\shrut\\Desktop\\Github\\Projects\\Shruti_Repository\\Mood Predictor Model Streamlit App\\Dataset.xlsx"
 breakfast = pd.read_excel(excel_file_path, sheet_name=0, engine='openpyxl')
 activity= pd.read_excel(excel_file_path, sheet_name=2, engine='openpyxl')
 absenteeism = pd.read_excel(excel_file_path, sheet_name=3, engine='openpyxl')
@@ -38,8 +29,6 @@ travel = pd.read_excel(excel_file_path, sheet_name=6, engine='openpyxl')
 clubs = pd.read_excel(excel_file_path, sheet_name=8, engine='openpyxl')
 mood = pd.read_excel(excel_file_path, sheet_name=1, engine='openpyxl')
 
-
-import streamlit as st
 
 def apply_dark_theme():
     st.markdown(
@@ -113,8 +102,6 @@ def apply_dark_theme():
     )
 
 apply_dark_theme()
-
-import streamlit as st
 
 st.markdown("""
 <style>

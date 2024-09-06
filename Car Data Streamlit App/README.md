@@ -64,9 +64,15 @@ Make sure to adjust the path if the dataset is located elsewhere.
 
 ## Images/Recording
 
-For a visual demonstration of how the app works, you can watch the recording at the following link:
+For a visual demonstration of how the app works, you can watch the recording below:
 
-[Car Streamlit App Recording](C:/Users/shrut/Desktop/Car Data Handling & Predictive Model/CarStreamltApp_Recording.mp4)
+### Recording of Output
 
+[![Car Streamlit App Recording]](./Images_recordings/CarStreamltApp_Recording.mp4)
+
+## Acknowledgements
+
+- The machine learning model is based on the Diabetes Dataset from kaggle.
+- Special thanks to Streamlit for ui
 
 ---
