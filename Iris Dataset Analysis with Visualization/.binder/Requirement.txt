@@ -1,6 +1,0 @@
-voila
-numpy
-pandas
-matplotlib
-seaborn
-ipywidgets
