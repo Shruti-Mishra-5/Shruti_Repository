@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Stats</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Algerian&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Satisfaction Stats</h1>
+        <p class="description">Upload your CSV or XLSX file to analyze sentiments in reviews.</p>
+        <form action="/analyze" method="POST" enctype="multipart/form-data">
+            <div class="upload-box">
+                <label for="file">Choose CSV/XLSX File:</label>
+                <input type="file" name="file" id="file" accept=".csv,.xlsx" required>
+            </div>
+            <input type="submit" value="Upload and Analyze">
+        </form>
+        
+        {% if scores %}
+            <div class="score-box">
+                <h2>Scores</h2>
+                <p>Positive: {{ scores.positive }}</p>
+                <p>Negative: {{ scores.negative }}</p>
+                <p>Neutral: {{ scores.neutral }}</p>
+            </div>
+        {% endif %}
+        
+        {% if error %}
+            <div class="error-box">
+                <p>Error: {{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+    <footer>
+        <p>&copy; 2024 Customer Satisfaction Tool. All rights reserved.</p>
+    </footer>
+</body>
+</html>
