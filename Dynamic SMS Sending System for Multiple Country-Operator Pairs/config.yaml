@@ -1,0 +1,15 @@
+Uzbekistan:
+  program: program1.py
+  phone: "+998XXXXXXX"
+  proxy: "proxy1"
+  operators:
+    - UzMobile
+  priority: true
+India:
+  program: program2.py
+  phone: "+91XXXXXXX"
+  proxy: "proxy2"
+  operators:
+    - Reliance
+    - TATA DOCOMO
+  priority: false
