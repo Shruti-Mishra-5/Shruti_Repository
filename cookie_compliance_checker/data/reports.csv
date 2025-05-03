@@ -1,0 +1,20 @@
+Website,CookieBanner,PrivacyPolicyURL,SimilarityScore
+https://www.bbc.com,"window.analytics = window.analytics || { echoClient: null, buffer:[], checkForAdBlocker:true, data: null };",https://www.bbc.co.uk/usingthebbc/terms,0.139
+https://www.kaggle.com,"Kaggle: Your Machine Learning and Data Science Community try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement(""style"");
+        d.appendChild(s.createTextNode(""""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + ""{ opacity: 0 !important }""));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){} window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Home'
+        });",https://www.kaggle.com/privacy,0.182
+https://www.mozilla.org,"Help us improve your Mozilla experienceIn addition to Cookies necessary for this site to function, we’d like your permission to set some additional Cookies to better understand your browsing needs and improve your experience. Rest assured — we value your privacy.Accept All Additional CookiesReject All Additional CookiesCookie settings In addition to Cookies necessary for this site to function, we’d like your permission to set some additional Cookies to better understand your browsing needs and improve your experience. Rest assured — we value your privacy.Accept All Additional CookiesReject All Additional CookiesCookie settings Accept All Additional CookiesReject All Additional CookiesCookie settings",https://www.mozilla.org/en-US/privacy/websites/cookie-settings/,0.581
+https://www.bripublish.com/bookwriting,"{""props"":{""pageProps"":{}},""page"":""/bookwriting"",""query"":{},""buildId"":""8-p25L_7-OuSMBAnVywbG"",""nextExport"":true,""autoExport"":true,""isFallback"":false,""scriptLoader"":[{""strategy"":""lazyOnload"",""src"":""https://www.googletagmanager.com/gtag/js?id=G-F5HH6MGTCZ""},{""strategy"":""lazyOnload"",""children"":""\n\t\t\t\t\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\t\t\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\t\t\t\t\tgtag('js', new Date());\n\t\t\t\t\t\t\tgtag('config', 'G-F5HH6MGTCZ');\n\t\t\t\t\t\t""},{""strategy"":""afterInteractive"",""src"":""https://www.googletagmanager.com/gtag/js?id=AW-10994677336""},{""strategy"":""afterInteractive"",""children"":""\n\t\t\t\t\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\t\t\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\t\t\t\t\tgtag('js', new Date());\n\t\t\t\t\t\t\tgtag('config', 'AW-10994677336');\n\t\t\t\t\t\t""}]}",https://www.bripublish.com/privacy,0.07
+https://meet.google.com,"{""@context"": ""https://schema.org"", ""@type"": ""Product"", ""brand"": {""@type"": ""Organization"", ""name"": ""Google""}, ""name"": ""Google Meet"", ""description"":  ""Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers."", ""url"": ""https://meet.google.com"", ""logo"": ""https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png"", ""isRelatedTo"": {""@type"": ""Product"", ""name"": ""G Suite""}, ""offers"": {""@type"": ""Offer"", ""availability"": ""https://schema.org/InStock"", ""price"": ""6"", ""priceCurrency"": ""USD"", ""url"": ""https://gsuite.google.com/""}, ""sameAs"": [ ""https://twitter.com/gsuite"", ""https://blog.google/products/g-suite/"", ""https://www.youtube.com/playlist?list=PLU8ezI8GYqs470EdSOM7gdqgb6caBRGWH"", ""https://en.wikipedia.org/wiki/Google_Hangouts#Google_Hangouts_Meet"", ""https://www.wikidata.org/wiki/Q56669074"" ]}",https://meet.google.com/privacy,0.0
+https://www.google.com,N/A,https://www.google.com/intl/en/policies/privacy/,0.0
