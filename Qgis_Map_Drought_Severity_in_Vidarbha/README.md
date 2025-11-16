@@ -104,4 +104,4 @@ The method can be extended for:
 ---
 ## Final Drought Severity Map
 
-![Drought Map](images/Vidarbha_Map_Drought_Image.png)
+![Drought Severity Map](Images/Vidarbha_Map_Drought_Image.png)
