@@ -1,6 +1,6 @@
 
 ## **README.md** – *Industrial Equipment Failure Prediction System*
-© 2025 Your Name. All Rights Reserved.
+© 2025 Shruti Mishra.
 This project is originally created by me and may appear in multiple repositories I own.
 
 ---
