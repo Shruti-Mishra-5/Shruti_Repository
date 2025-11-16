@@ -197,45 +197,5 @@ Upload any dataset in CSV format with the expected columns.
 
 ---
 
-## **Troubleshooting**
-
-1. **Shape Mismatch Error**  
-   Ensure input features during prediction match those used during training.  
-2. **Streamlit Not Recognized**  
-   Install Streamlit again:
-   ```bash
-   pip install streamlit
-   ```
-
----
-
-## **Future Enhancements:**
-**Live IoT Data** – Integrate real-time machine sensor feeds.  
-**Failure Dashboard** – Generate reports for management insights.  
-**Automated Alerts** – Send email notifications for critical failures.  
-
----
-
-## **Contributing**
-Feel free to contribute by:
-1. **Forking the repo**
-2. **Creating a feature branch**
-3. **Submitting a pull request**
-
----
-
-## **License**
-This project is licensed under the **MIT License**.
-
----
-
-## **Contact**
-For questions or suggestions:
-- **Your Name**
-- Email: your@email.com
-- GitHub: [your-username](https://github.com/your-username)
-
----
-
 **Thank you for using the Industrial Equipment Failure Prediction System!**  
 We hope this tool helps you maintain **safe**, **efficient**, and **reliable** equipment.
