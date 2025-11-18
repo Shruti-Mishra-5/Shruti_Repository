@@ -12,7 +12,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 from mpl_toolkits.mplot3d import Axes3D
 import plotly.express as px
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 excel_file_path = r"C:\\Users\\shrut\\Desktop\\Github\\Projects\\Shruti_Repository\\Mood Predictor Model Streamlit App\\Dataset.xlsx"
 
