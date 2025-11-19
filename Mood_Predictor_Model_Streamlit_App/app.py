@@ -14,7 +14,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import plotly.express as px
 
 
-excel_file_path = "Dataset.xlsx"
+excel_file_path = "Mood_Predictor_Model_Streamlit_App/Dataset.xlsx"
 
 
 df = pd.read_excel(excel_file_path, sheet_name=1, engine='openpyxl')
@@ -920,7 +920,7 @@ elif selected_tab == 'Relations Of All' :
 
 
     # Define DataFrames
-    excel_file_path = "Dataset.xlsx"
+    excel_file_path = "Mood_Predictor_Model_Streamlit_App/Dataset.xlsx"
     breakfast = pd.read_excel(excel_file_path, sheet_name=0, engine='openpyxl')
     activity= pd.read_excel(excel_file_path, sheet_name=2, engine='openpyxl')
     absenteeism = pd.read_excel(excel_file_path, sheet_name=3, engine='openpyxl')
