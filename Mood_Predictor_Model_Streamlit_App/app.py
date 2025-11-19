@@ -13,13 +13,16 @@ from sklearn.preprocessing import LabelEncoder
 from mpl_toolkits.mplot3d import Axes3D
 import plotly.express as px
 
+import warnings
+warnings.filterwarnings("ignore", message=".*st.pyplot.*deprecated.*")
 
-excel_file_path = "Mood_Predictor_Model_Streamlit_App/Dataset.xlsx"
 
 
+import os
+
+excel_file_path = os.path.join(os.path.dirname(__file__), "Dataset.xlsx")
 df = pd.read_excel(excel_file_path, sheet_name=1, engine='openpyxl')
 
-excel_file_path = "Dataset.xlsx"
 breakfast = pd.read_excel(excel_file_path, sheet_name=0, engine='openpyxl')
 activity= pd.read_excel(excel_file_path, sheet_name=2, engine='openpyxl')
 absenteeism = pd.read_excel(excel_file_path, sheet_name=3, engine='openpyxl')
@@ -255,6 +258,11 @@ elif selected_tab == 'Datasets':
 elif selected_tab == 'Mood Analysis':
 
 
+    import os
+    import pandas as pd
+
+    excel_file_path = os.path.join(os.path.dirname(__file__), "Dataset.xlsx")
+    df = pd.read_excel(excel_file_path, sheet_name='Moods-JuhiShruti', engine='openpyxl')
 
     
     selected_person = st.selectbox('Select a person:', df['Name'].unique())
@@ -537,6 +545,8 @@ elif selected_tab == 'Mood Analysis':
 
 elif selected_tab == '2 Bsc EA being a mood':
 
+    excel_file_path = os.path.join(os.path.dirname(__file__), "Dataset.xlsx")
+    df = pd.read_excel(excel_file_path, sheet_name='Moods-JuhiShruti', engine='openpyxl')
     
     def plot_fluctuation_frequencies_2_bsc(df):
         import matplotlib.pyplot as plt
@@ -920,7 +930,13 @@ elif selected_tab == 'Relations Of All' :
 
 
     # Define DataFrames
-    excel_file_path = "Mood_Predictor_Model_Streamlit_App/Dataset.xlsx"
+    import os
+
+    excel_file_path = os.path.join(os.path.dirname(__file__), "Dataset.xlsx")
+    df = pd.read_excel(excel_file_path, sheet_name=1, engine='openpyxl')
+
+
+
     breakfast = pd.read_excel(excel_file_path, sheet_name=0, engine='openpyxl')
     activity= pd.read_excel(excel_file_path, sheet_name=2, engine='openpyxl')
     absenteeism = pd.read_excel(excel_file_path, sheet_name=3, engine='openpyxl')
@@ -1046,6 +1062,9 @@ elif selected_tab == 'Relations Of All' :
 
 
 elif selected_tab == 'Mood Forecast':
+    excel_file_path = os.path.join(os.path.dirname(__file__), "Dataset.xlsx")
+    df = pd.read_excel(excel_file_path, sheet_name='Moods-JuhiShruti', engine='openpyxl')
+    
     st.write('### Mood Forecasting')
 
 
