@@ -5,7 +5,7 @@ import requests
 import time
 
 app = Flask(__name__)
-GROQ_API_KEY = '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'
+GROQ_API_KEY = ''
 GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 @app.route('/')
 def home():
