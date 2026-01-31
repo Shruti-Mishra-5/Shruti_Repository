@@ -7,3 +7,14 @@ pandas
 numpy
 folium
 streamlit-folium
+=======
+streamlit
+geopandas
+pyproj
+shapely
+fiona
+pandas
+numpy
+folium
+streamlit-folium
+

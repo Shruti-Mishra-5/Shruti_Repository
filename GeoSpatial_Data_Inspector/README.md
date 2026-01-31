@@ -88,6 +88,7 @@ GeoSpatial_Data_Inspector/
 ├── requirements.txt
 └── README.md
 
+
 ---
 
 ## Installation & Usage
@@ -95,15 +96,6 @@ GeoSpatial_Data_Inspector/
 pip install -r requirements.txt
 streamlit run app.py
 
----
-
-## Use Cases
-- Quality checking government or open geospatial datasets
-- Cleaning GIS data before spatial overlays or modeling
-- CRS validation before raster–vector integration
-- Rapid inspection of research or urban datasets
-- Preprocessing data for GIS or spatial analytics pipelines
 
 Author
 Shruti Mishra
-
