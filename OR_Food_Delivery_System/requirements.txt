@@ -1,0 +1,7 @@
+streamlit
+streamlit-plotly-events
+plotly
+networkx
+scikit-learn
+numpy
+ortools
